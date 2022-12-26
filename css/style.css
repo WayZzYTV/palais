@@ -504,7 +504,7 @@ footer a:hover {
 
 .liste-carte {
   margin: 100px auto;
-  width: 95%;
+  width: 90%;
   max-width: 1500px;
   display: flex;
   flex-wrap: wrap;
