@@ -517,6 +517,8 @@ footer a:hover {
   margin: auto;
   position: relative;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 450px;
   height: 550px;
   background-color: var(--darkblue);
@@ -526,10 +528,40 @@ footer a:hover {
   transition: 0.3s;
 }
 
+.carte .haut {
+  margin: auto;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.carte .bas {
+  margin: auto;
+  top: 25px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.carte .bas .titre {
+  border: none;
+}
+
+.carte .bas .titre h2 {
+  top: 75%;
+}
+
 .carte .titre {
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 65px;
+  /* border-bottom: solid 1px var(--orange); */
+  transition: 0.3s;
+}
+
+.potages .titre {
   width: 100%;
   height: 70px;
   border-bottom: solid 1px var(--orange);
@@ -537,6 +569,18 @@ footer a:hover {
 }
 
 .carte .titre h2 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  width: max-content;
+}
+
+.potages .titre h2 {
   position: absolute;
   top: 50%;
   left: 50%;
