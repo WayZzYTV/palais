@@ -686,3 +686,13 @@ footer a:hover {
     min-width: 280px;
   }
 }
+
+/* @media (max-width:345px) {
+  .carte {
+    width: 300px;
+  }
+
+  .carte .produits .ligne {
+    font-size: 12px;
+  }
+} */
