@@ -62,7 +62,7 @@ html {
 body {
   height: auto;
   background: var(--bluebackground);
-  /* background: url(../ressources/background.png); */
+  background: url(../ressources/background.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
