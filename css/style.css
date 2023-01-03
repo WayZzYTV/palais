@@ -23,11 +23,9 @@
 /* ---------------------------- ROOT ---------------------------- */
 
 :root {
-  --bluebackground:#4c5174;
-  --darkblue:#212749;
-  --orange: #ff765e;
-  --gradtitlegreen:linear-gradient(13deg, #00ffcc, #9FFFEC);
-  --gradtitlepink:linear-gradient(13deg, #ff5ce4, #C294FD);
+  --bluebackground:#2b2d42;
+  --darkblue:#001D3D;
+  --orange: #FFB703;
 }
 
 
@@ -62,7 +60,7 @@ html {
 body {
   height: auto;
   background: var(--bluebackground);
-  background: url(../ressources/background.png);
+  /* background: url(../ressources/background.png); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -521,11 +519,12 @@ footer a:hover {
   justify-content: space-between;
   width: 500px;
   background-color: var(--darkblue);
-  -webkit-box-shadow: 0 15px 10px rgb(0 0 0 / 60%);
-  box-shadow: 0 15px 10px rgb(0 0 0 / 60%);
+  -webkit-box-shadow: 0 15px 10px rgb(0 0 0 / 30%);
+  box-shadow: 0 15px 10px rgb(0 0 0 / 30%);
   cursor: pointer;
   font-size: 14px;
   transition: 0.3s;
+  text-align: left;
 }
 
 .carte .titre {
@@ -585,7 +584,6 @@ footer a:hover {
 .carte .produits .ligne .plat {
   display: block;
   color: white;
-  text-align: left;
 }
 
 .carte .produits .ligne .plat p {
@@ -608,7 +606,7 @@ footer a:hover {
 
 .carte:hover {
   transform: scale(1.1, 1.1);
-  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), -5px -5px 30px 15px rgba(0,0,0,0.22);
+  box-shadow: 2px 2px 15px 7px rgba(0,0,0,0.25), -2px -2px 15px 7px rgba(0,0,0,0.22);
   transition: 0.3s;
 }
 
