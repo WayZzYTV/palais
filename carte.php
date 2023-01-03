@@ -166,24 +166,6 @@
         </div>
 
         <div class="titre">
-          <h2>Potages</h2>
-        </div>
-        <div class="produits">
-        <?php
-          foreach($potage as $ligne) {
-        ?>
-          <div class="ligne">
-            <div class="code"><?=$ligne['code']?><span>.</span></div>
-            <div class="plat"><p><?=$ligne['plat']?></p></div>
-            <div class="trait"></div>
-            <div class="prix"><?=$ligne['prix']?></div>
-          </div>
-        <?php
-          }
-        ?>
-        </div>
-
-        <div class="titre">
           <h2>Hors d'oeuvres</h2>
         </div>
         <div class="produits">
@@ -262,6 +244,24 @@
       </div>
 
       <div class="carte">
+      <div class="titre">
+          <h2>Potages</h2>
+        </div>
+        <div class="produits">
+        <?php
+          foreach($potage as $ligne) {
+        ?>
+          <div class="ligne">
+            <div class="code"><?=$ligne['code']?><span>.</span></div>
+            <div class="plat"><p><?=$ligne['plat']?></p></div>
+            <div class="trait"></div>
+            <div class="prix"><?=$ligne['prix']?></div>
+          </div>
+        <?php
+          }
+        ?>
+        </div>
+        
         <div class="titre">
           <h2>Légumes Nouilles Riz</h2>
         </div>
