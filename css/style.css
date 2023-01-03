@@ -566,6 +566,7 @@ footer a:hover {
 .carte .produits .ligne {
   width: 100%;
   display: flex;
+  padding: 2px;
   justify-content: space-between;
   gap: 10px;
 }
