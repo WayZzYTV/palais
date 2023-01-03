@@ -129,6 +129,7 @@
       <div class="carte">
         <div class="titre">
           <h2>Spécialités Maison</h2>
+          <span>* réservation</span>
         </div>
         <div class="produits">
         <?php

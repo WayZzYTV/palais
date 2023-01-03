@@ -566,14 +566,14 @@ footer a:hover {
 .carte .produits .ligne {
   width: 100%;
   display: flex;
-  gap: 5px;
   justify-content: space-between;
+  gap: 10px;
 }
 
 .carte .produits .ligne .code {
   margin: auto;
   display: block;
-  width: 10%;
+  width: max-content;
   color: white;
 }
 
@@ -588,6 +588,10 @@ footer a:hover {
 
 .carte .produits .ligne .plat p {
   width: max-content;
+}
+
+.carte .produits .ligne .plat span {
+  color: var(--orange);
 }
 
 .carte .produits .ligne .trait {
