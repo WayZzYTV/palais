@@ -24,8 +24,9 @@
 
 :root {
   --bluebackground:#2b2d42;
-  --darkblue:#001D3D;
-  --orange: #FFB703;
+  --darkblue:#1b1b1b;
+  --orange: #ff002b;
+  --noir: #1b1b1b;
 }
 
 
@@ -408,7 +409,7 @@ footer {
   color: white;
   font-family: 'Titillium Web', sans-serif;
   text-transform: uppercase;
-  background: var(--darkblue);
+  background: var(--noir);
   z-index: 5;
   text-align: center;
   border-top: solid 1px var(--orange);
@@ -424,11 +425,6 @@ footer a {
 footer a:hover {
   color: var(--orange);
   transition: 0.2s;
-}
-
-.home-footer {
-  position: absolute;
-  bottom: 0;
 }
 
 /* ---------------------------- fin footer ---------------------------- */
@@ -518,7 +514,7 @@ footer a:hover {
   flex-direction: column;
   justify-content: space-between;
   width: 500px;
-  background-color: var(--darkblue);
+  background-color: var(--noir);
   -webkit-box-shadow: 0 15px 10px rgb(0 0 0 / 30%);
   box-shadow: 0 15px 10px rgb(0 0 0 / 30%);
   cursor: pointer;
@@ -580,6 +576,7 @@ footer a:hover {
 
 .carte .produits .ligne .code span {
   color: var(--orange);
+  font-weight: 600;
 }
 
 .carte .produits .ligne .plat {
@@ -605,7 +602,7 @@ footer a:hover {
 
 .carte .produits .ligne .prix {
   display: flex;
-  color: var(--orange);
+  color: white;
   text-align: right;
 }
 

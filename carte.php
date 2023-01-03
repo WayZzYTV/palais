@@ -149,11 +149,11 @@
 
       <div class="carte">
         <div class="titre">
-          <h2>Cuisine Vapeur</h2>
+          <h2>Potages</h2>
         </div>
         <div class="produits">
         <?php
-          foreach($vapeur as $ligne) {
+          foreach($potage as $ligne) {
         ?>
           <div class="ligne">
             <div class="code"><?=$ligne['code']?><span>.</span></div>
@@ -245,12 +245,12 @@
       </div>
 
       <div class="carte">
-      <div class="titre">
-          <h2>Potages</h2>
+        <div class="titre">
+          <h2>Cuisine Vapeur</h2>
         </div>
         <div class="produits">
         <?php
-          foreach($potage as $ligne) {
+          foreach($vapeur as $ligne) {
         ?>
           <div class="ligne">
             <div class="code"><?=$ligne['code']?><span>.</span></div>
