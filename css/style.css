@@ -457,42 +457,24 @@ footer a:hover {
 
 .home {
   display: flex;
-  flex-direction: column;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
-  background: url(../ressources/back.png);
+  background: url(../ressources/back.svg);
   background-size: cover;
-  background-repeat: no-repeat;
-  object-fit: cover;
-  background-position: center top;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center top;
   z-index: 2;
   position: relative;
-  overflow: hidden;
-}
-
-.home-blur {
-  margin: auto;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.7);
-  /* backdrop-filter: blur(5px); */
-  z-index: 3;
-  overflow: hidden;
 }
 
 .home img {
   position: absolute;
-  z-index: 4;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  width: 100vw;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+  width: 100%;
   height: 100vh;
   max-width: 1000px;
   min-width: 350px;
