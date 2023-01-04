@@ -6,43 +6,22 @@
 
   $db = connexion_bdd();
 
-  $thai = $db->prepare("SELECT * from thai");
-  $thai->execute();
-  $thai = $thai->fetchAll();
+  $apero = $db->prepare("SELECT * from aperitif");
+  $apero->execute();
+  $apero = $apero->fetchAll();
 
-  $maison = $db->prepare("SELECT * from maison");
-  $maison->execute();
-  $maison = $maison->fetchAll();
+  $digestif = $db->prepare("SELECT * from digestif");
+  $digestif->execute();
+  $digestif = $digestif->fetchAll();
 
-  $vapeur = $db->prepare("SELECT * from vapeur");
-  $vapeur->execute();
-  $vapeur = $vapeur->fetchAll();
+  $biere = $db->prepare("SELECT * from biere");
+  $biere->execute();
+  $biere = $biere->fetchAll();
 
-  $potage = $db->prepare("SELECT * from potage");
-  $potage->execute();
-  $potage = $potage->fetchAll();
-
-  $hors = $db->prepare("SELECT * from hors");
-  $hors->execute();
-  $hors = $hors->fetchAll();
-
-  $fruits = $db->prepare("SELECT * from fruits");
-  $fruits->execute();
-  $fruits = $fruits->fetchAll();
-
-  $volaille = $db->prepare("SELECT * from volaille");
-  $volaille->execute();
-  $volaille = $volaille->fetchAll();
-
-  $viande = $db->prepare("SELECT * from viande");
-  $viande->execute();
-  $viande = $viande->fetchAll();
-
-  $nouilles = $db->prepare("SELECT * from nouilles");
-  $nouilles->execute();
-  $nouilles = $nouilles->fetchAll();
+  $soft = $db->prepare("SELECT * from soft");
+  $soft->execute();
+  $soft = $soft->fetchAll();
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -54,6 +33,7 @@
     <link rel="shortcut icon" href="./ressources/ICONE.svg" type="image/x-icon"/>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
 
   <header>
@@ -67,10 +47,10 @@
           <a href="index.html" class="btn-item">Accueil</a> 
         </li>           
         <li class="nav-item">
-          <a href="carte.php" class="btn-item active">Carte</a>     
+          <a href="carte.php" class="btn-item">Carte</a>     
         </li>
         <li class="nav-item">
-          <a href="boissons.php" class="btn-item">Boissons</a>     
+          <a href="boissons.php" class="btn-item active">Boissons</a>     
         </li>      
         <li class="nav-item">
           <a href="menus.html" class="btn-item">Menus</a>
@@ -90,8 +70,8 @@
       <div class="corps-burger">
         <ul class="burger-list">
           <li class="burger-item burger-item1"><a class="link" href="index.html">Accueil</a></li>
-          <li class="burger-item burger-item2"><a class="link active" href="carte.html">Carte</a></li>
-          <li class="burger-item burger-item3"><a class="link" href="boissons.php">Boissons</a></li>
+          <li class="burger-item burger-item2"><a class="link" href="carte.html">Carte</a></li>
+          <li class="burger-item burger-item3"><a class="link active" href="boissons.php">Boissons</a></li>
           <li class="burger-item burger-item4"><a class="link" href="menus.html">Menus</a></li>
           <li class="burger-item burger-item5"><a class="link" href="#">Galerie</a></li>
           <li class="burger-item burger-item6"><a class="link" href="#">Contact</a></li>
@@ -104,20 +84,18 @@
 
   <section class="page">
 
-    <div class="liste-carte">
+    <div class="liste-vins">
 
       <div class="carte">
         <div class="titre">
-          <h2>Spécialités Thaïlandaises</h2>
-          <span>pimenté</span>
+          <h2>Apéritifs</h2>
         </div>
         <div class="produits">
         <?php
-          foreach($thai as $ligne) {
+          foreach($apero as $ligne) {
         ?>
           <div class="ligne">
-            <div class="code"><?=$ligne['code']?><span>.</span></div>
-            <div class="plat"><p><?=$ligne['plat']?></p></div>
+            <div class="plat"><p><?=$ligne['libelle']?></p></div>
             <div class="trait"></div>
             <div class="prix"><?=$ligne['prix']?></div>
           </div>
@@ -125,20 +103,36 @@
           }
         ?>
         </div>
+
+        <div class="titre">
+          <h2>Digestifs</h2>
+        </div>
+        <div class="produits">
+        <?php
+          foreach($digestif as $ligne) {
+        ?>
+          <div class="ligne">
+            <div class="plat"><p><?=$ligne['libelle']?></p></div>
+            <div class="trait"></div>
+            <div class="prix"><?=$ligne['prix']?></div>
+          </div>
+        <?php
+          }
+        ?>
+        </div>
+
       </div>
 
       <div class="carte">
         <div class="titre">
-          <h2>Spécialités Maison</h2>
-          <span>* réservation</span>
+          <h2>Bières</h2>
         </div>
         <div class="produits">
         <?php
-          foreach($maison as $ligne) {
+          foreach($biere as $ligne) {
         ?>
           <div class="ligne">
-            <div class="code"><?=$ligne['code']?><span>.</span></div>
-            <div class="plat"><p><?=$ligne['plat']?></p></div>
+            <div class="plat"><p><?=$ligne['libelle']?></p></div>
             <div class="trait"></div>
             <div class="prix"><?=$ligne['prix']?></div>
           </div>
@@ -146,20 +140,38 @@
           }
         ?>
         </div>
+
+        <div class="titre">
+          <h2>Softs</h2>
+        </div>
+        <div class="produits">
+        <?php
+          foreach($soft as $ligne) {
+        ?>
+          <div class="ligne">
+            <div class="plat"><p><?=$ligne['libelle']?></p></div>
+            <div class="trait"></div>
+            <div class="prix"><?=$ligne['prix']?></div>
+          </div>
+        <?php
+          }
+        ?>
+        </div>
+
       </div>
 
-      <div class="carte">
+      <div class="carte-vin">
         <div class="titre">
-          <h2>Potages</h2>
+          <h2>Vins Blancs</h2>
         </div>
         <div class="produits">
         <?php
-          foreach($potage as $ligne) {
+          foreach($apero as $ligne) {
         ?>
           <div class="ligne">
-            <div class="code"><?=$ligne['code']?><span>.</span></div>
-            <div class="plat"><p><?=$ligne['plat']?></p></div>
+            <div class="plat"><p><?=$ligne['libelle']?></p></div>
             <div class="trait"></div>
+            <div class="prix"><?=$ligne['prix']?></div>
             <div class="prix"><?=$ligne['prix']?></div>
           </div>
         <?php
@@ -168,57 +180,16 @@
         </div>
 
         <div class="titre">
-          <h2>Hors d'oeuvres</h2>
+          <h2>Vins Rouges</h2>
         </div>
         <div class="produits">
         <?php
-          foreach($hors as $ligne) {
+          foreach($digestif as $ligne) {
         ?>
           <div class="ligne">
-            <div class="code"><?=$ligne['code']?><span>.</span></div>
-            <div class="plat"><p><?=$ligne['plat']?></p></div>
+            <div class="plat"><p><?=$ligne['libelle']?></p></div>
             <div class="trait"></div>
             <div class="prix"><?=$ligne['prix']?></div>
-          </div>
-        <?php
-          }
-        ?>
-        </div>
-      </div>
-     
-
-      <div class="carte">
-        <div class="titre">
-          <h2>Fruits de Mer</h2>
-        </div>
-        <div class="produits">
-        <?php
-          foreach($fruits as $ligne) {
-        ?>
-          <div class="ligne">
-            <div class="code"><?=$ligne['code']?><span>.</span></div>
-            <div class="plat"><p><?=$ligne['plat']?></p></div>
-            <div class="trait"></div>
-            <div class="prix"><?=$ligne['prix']?></div>
-          </div>
-        <?php
-          }
-        ?>
-        </div>
-      </div>
-
-      <div class="carte">
-        <div class="titre">
-          <h2>Volailles</h2>
-        </div>
-        <div class="produits">
-        <?php
-          foreach($volaille as $ligne) {
-        ?>
-          <div class="ligne">
-            <div class="code"><?=$ligne['code']?><span>.</span></div>
-            <div class="plat"><p><?=$ligne['plat']?></p></div>
-            <div class="trait"></div>
             <div class="prix"><?=$ligne['prix']?></div>
           </div>
         <?php
@@ -227,60 +198,41 @@
         </div>
 
         <div class="titre">
-          <h2>Viandes</h2>
+          <h2>Champagnes</h2>
         </div>
         <div class="produits">
         <?php
-          foreach($viande as $ligne) {
+          foreach($digestif as $ligne) {
         ?>
           <div class="ligne">
-            <div class="code"><?=$ligne['code']?><span>.</span></div>
-            <div class="plat"><p><?=$ligne['plat']?></p></div>
+            <div class="plat"><p><?=$ligne['libelle']?></p></div>
             <div class="trait"></div>
+            <div class="prix"><?=$ligne['prix']?></div>
             <div class="prix"><?=$ligne['prix']?></div>
           </div>
         <?php
           }
         ?>
         </div>
-      </div>
 
-      <div class="carte">
         <div class="titre">
-          <h2>Cuisine Vapeur</h2>
+          <h2>Pichets "Vin de Tables"</h2>
         </div>
         <div class="produits">
         <?php
-          foreach($vapeur as $ligne) {
+          foreach($digestif as $ligne) {
         ?>
           <div class="ligne">
-            <div class="code"><?=$ligne['code']?><span>.</span></div>
-            <div class="plat"><p><?=$ligne['plat']?></p></div>
+            <div class="plat"><p><?=$ligne['libelle']?></p></div>
             <div class="trait"></div>
+            <div class="prix"><?=$ligne['prix']?></div>
             <div class="prix"><?=$ligne['prix']?></div>
           </div>
         <?php
           }
         ?>
         </div>
-        
-        <div class="titre">
-          <h2>Légumes Nouilles Riz</h2>
-        </div>
-        <div class="produits">
-        <?php
-          foreach($nouilles as $ligne) {
-        ?>
-          <div class="ligne">
-            <div class="code"><?=$ligne['code']?><span>.</span></div>
-            <div class="plat"><p><?=$ligne['plat']?></p></div>
-            <div class="trait"></div>
-            <div class="prix"><?=$ligne['prix']?></div>
-          </div>
-        <?php
-          }
-        ?>
-        </div>
+
       </div>
 
     </div>

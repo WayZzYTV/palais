@@ -509,6 +509,17 @@ footer a:hover {
   row-gap: 50px;
 }
 
+.liste-vins {
+  margin: 100px auto;
+  width: 95%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
 .carte {
   margin: auto;
   display: flex;
@@ -521,10 +532,23 @@ footer a:hover {
   cursor: pointer;
   font-size: 14px;
   transition: 0.3s;
-  text-align: left;
 }
 
-.carte .titre {
+.carte-vin {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1000px;
+  background-color: var(--noir);
+  -webkit-box-shadow: 0 15px 10px rgb(0 0 0 / 30%);
+  box-shadow: 0 15px 10px rgb(0 0 0 / 30%);
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.carte .titre, .carte-vin .titre {
   margin: auto;
   width: 100%;
   height: 60px;
@@ -532,7 +556,7 @@ footer a:hover {
   transition: 0.3s;
 }
 
-.carte .titre h2 {
+.carte .titre h2, .carte-vin .titre h2 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -544,7 +568,7 @@ footer a:hover {
   width: max-content;
 }
 
-.carte .titre span {
+.carte .titre span, .carte-vin .titre span {
   position: absolute;
   bottom: 0;
   right: 2%;
@@ -553,14 +577,14 @@ footer a:hover {
   font-size: 15px;
 }
 
-.carte .produits {
+.carte .produits, .carte-vin .produits {
   width: 100%;
   height: auto;
   padding: 5px;
   color: white;
 }
 
-.carte .produits .ligne {
+.carte .produits .ligne, .carte-vin .produits .ligne {
   width: 100%;
   display: flex;
   padding: 2px;
@@ -568,32 +592,32 @@ footer a:hover {
   gap: 10px;
 }
 
-.carte .produits .ligne .code {
+.carte .produits .ligne .code, .carte-vin .produits .ligne .code {
   margin: auto;
   display: block;
   width: max-content;
   color: white;
 }
 
-.carte .produits .ligne .code span {
+.carte .produits .ligne .code span, .carte-vin .produits .ligne .code span {
   color: var(--rouge);
   font-weight: 600;
 }
 
-.carte .produits .ligne .plat {
+.carte .produits .ligne .plat, .carte-vin .produits .ligne .plat {
   display: block;
   color: white;
 }
 
-.carte .produits .ligne .plat p {
+.carte .produits .ligne .plat p, .carte-vin .produits .ligne .plat p {
   width: max-content;
 }
 
-.carte .produits .ligne .plat span {
+.carte .produits .ligne .plat span, .carte-vin .produits .ligne .plat span {
   color: var(--or);
 }
 
-.carte .produits .ligne .trait {
+.carte .produits .ligne .trait, .carte-vin .produits .ligne .trait {
   margin: auto;
   display: flex;
   width: 80%;
@@ -601,7 +625,7 @@ footer a:hover {
   border-bottom: dashed 1px var(--rouge);
 }
 
-.carte .produits .ligne .prix {
+.carte .produits .ligne .prix, .carte-vin .produits .ligne .prix {
   display: flex;
   color: white;
   text-align: right;
@@ -638,6 +662,11 @@ footer a:hover {
 
 @media (max-width:510px) {
   .carte {
+    width: 350px;
+    font-size: 11px;
+  }
+
+  .liste-vins {
     width: 350px;
     font-size: 11px;
   }
