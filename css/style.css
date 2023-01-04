@@ -194,8 +194,12 @@ header {
   font-size: 28px;
 }
 
-.logo span {
+.logo:hover span {
   color: var(--rouge);
+}
+
+.logo span {
+  color: var(--or);
 }
   
 .btn-item {
