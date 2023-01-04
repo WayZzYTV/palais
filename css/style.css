@@ -344,11 +344,11 @@ header {
 }
 
 .burger-item a.active {
-  color: var(--rouge);
+  color: var(--or);
 }
 
 .burger-item a.active::before {
-  background: var(--rouge);
+  background: var(--or);
   content: "";
   position: absolute;
   bottom: -5px;
@@ -506,7 +506,7 @@ footer a:hover {
   flex-wrap: wrap;
   justify-content: center;
   column-gap: 50px;
-  row-gap: 50px;
+  row-gap: 100px;
 }
 
 .liste-vins {
@@ -517,7 +517,7 @@ footer a:hover {
   flex-wrap: wrap;
   justify-content: center;
   column-gap: 50px;
-  row-gap: 50px;
+  row-gap: 100px;
 }
 
 .carte {
@@ -525,7 +525,7 @@ footer a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 500px;
+  width: 700px;
   background-color: var(--noir);
   -webkit-box-shadow: 0 15px 10px rgb(0 0 0 / 30%);
   box-shadow: 0 15px 10px rgb(0 0 0 / 30%);
@@ -539,7 +539,7 @@ footer a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 1000px;
+  width: 700px;
   background-color: var(--noir);
   -webkit-box-shadow: 0 15px 10px rgb(0 0 0 / 30%);
   box-shadow: 0 15px 10px rgb(0 0 0 / 30%);
@@ -572,6 +572,24 @@ footer a:hover {
   position: absolute;
   bottom: 0;
   right: 2%;
+  color: var(--or);
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 15px;
+}
+
+.carte-vin .titre .grande-bouteille {
+  position: absolute;
+  bottom: 0;
+  right: 1%;
+  color: var(--or);
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 15px;
+}
+
+.carte-vin .titre .petite-bouteille {
+  position: absolute;
+  bottom: 0;
+  right: 8%;
   color: var(--or);
   font-family: 'Titillium Web', sans-serif;
   font-size: 15px;
@@ -620,7 +638,7 @@ footer a:hover {
 .carte .produits .ligne .trait, .carte-vin .produits .ligne .trait {
   margin: auto;
   display: flex;
-  width: 80%;
+  width: 100%;
   height: 5px;
   border-bottom: dashed 1px var(--rouge);
 }
@@ -632,6 +650,12 @@ footer a:hover {
 }
 
 .carte:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow: 2px 2px 15px 7px rgba(0,0,0,0.25), -2px -2px 15px 7px rgba(0,0,0,0.22);
+  transition: 0.3s;
+}
+
+.carte-vin:hover {
   transform: scale(1.1, 1.1);
   box-shadow: 2px 2px 15px 7px rgba(0,0,0,0.25), -2px -2px 15px 7px rgba(0,0,0,0.22);
   transition: 0.3s;
@@ -666,6 +690,11 @@ footer a:hover {
     font-size: 11px;
   }
 
+  .carte-vin {
+    width: 350px;
+    font-size: 11px;
+  }
+
   .liste-vins {
     width: 350px;
     font-size: 11px;
@@ -675,7 +704,25 @@ footer a:hover {
     font-size: max(1vw,15px);
   }
 
+  .carte-vin .titre h2 {
+    font-size: max(1vw,15px);
+  }
+
   .carte .titre span {
+    font-size: 12px;
+  }
+
+  .carte-vin .titre span {
+    font-size: 12px;
+  }
+
+  .carte-vin .titre .grande-bouteille {
+    right: 2%;
+    font-size: 12px;
+  }
+
+  .carte-vin .titre .petite-bouteille {
+    right: 11%;
     font-size: 12px;
   }
 }

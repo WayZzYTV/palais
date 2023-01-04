@@ -21,6 +21,26 @@
   $soft = $db->prepare("SELECT * from soft");
   $soft->execute();
   $soft = $soft->fetchAll();
+
+  $blanc = $db->prepare("SELECT * from blanc");
+  $blanc->execute();
+  $blanc = $blanc->fetchAll();
+
+  $rose = $db->prepare("SELECT * from rose");
+  $rose->execute();
+  $rose = $rose->fetchAll();
+
+  $rouge = $db->prepare("SELECT * from rouge");
+  $rouge->execute();
+  $rouge = $rouge->fetchAll();
+
+  $champ = $db->prepare("SELECT * from champagne");
+  $champ->execute();
+  $champ = $champ->fetchAll();
+
+  $pichet = $db->prepare("SELECT * from pichet");
+  $pichet->execute();
+  $pichet = $pichet->fetchAll();
 ?>
 
 <!DOCTYPE html>
@@ -163,16 +183,38 @@
       <div class="carte-vin">
         <div class="titre">
           <h2>Vins Blancs</h2>
+          <span class="grande-bouteille">75cl</span>
+          <span class="petite-bouteille">37,50cl</span>
         </div>
         <div class="produits">
         <?php
-          foreach($apero as $ligne) {
+          foreach($blanc as $ligne) {
         ?>
           <div class="ligne">
             <div class="plat"><p><?=$ligne['libelle']?></p></div>
             <div class="trait"></div>
-            <div class="prix"><?=$ligne['prix']?></div>
-            <div class="prix"><?=$ligne['prix']?></div>
+            <div class="prix"><?=$ligne['pprix']?></div>
+            <div class="prix"><?=$ligne['gprix']?></div>
+          </div>
+        <?php
+          }
+        ?>
+        </div>
+
+        <div class="titre">
+          <h2>Vins Rosés</h2>
+          <span class="grande-bouteille">75cl</span>
+          <span class="petite-bouteille">37,50cl</span>
+        </div>
+        <div class="produits">
+        <?php
+          foreach($rose as $ligne) {
+        ?>
+          <div class="ligne">
+            <div class="plat"><p><?=$ligne['libelle']?></p></div>
+            <div class="trait"></div>
+            <div class="prix"><?=$ligne['pprix']?></div>
+            <div class="prix"><?=$ligne['gprix']?></div>
           </div>
         <?php
           }
@@ -181,16 +223,18 @@
 
         <div class="titre">
           <h2>Vins Rouges</h2>
+          <span class="grande-bouteille">75cl</span>
+          <span class="petite-bouteille">37,50cl</span>
         </div>
         <div class="produits">
         <?php
-          foreach($digestif as $ligne) {
+          foreach($rouge as $ligne) {
         ?>
           <div class="ligne">
             <div class="plat"><p><?=$ligne['libelle']?></p></div>
             <div class="trait"></div>
-            <div class="prix"><?=$ligne['prix']?></div>
-            <div class="prix"><?=$ligne['prix']?></div>
+            <div class="prix"><?=$ligne['pprix']?></div>
+            <div class="prix"><?=$ligne['gprix']?></div>
           </div>
         <?php
           }
@@ -202,12 +246,11 @@
         </div>
         <div class="produits">
         <?php
-          foreach($digestif as $ligne) {
+          foreach($champ as $ligne) {
         ?>
           <div class="ligne">
             <div class="plat"><p><?=$ligne['libelle']?></p></div>
             <div class="trait"></div>
-            <div class="prix"><?=$ligne['prix']?></div>
             <div class="prix"><?=$ligne['prix']?></div>
           </div>
         <?php
@@ -220,12 +263,11 @@
         </div>
         <div class="produits">
         <?php
-          foreach($digestif as $ligne) {
+          foreach($pichet as $ligne) {
         ?>
           <div class="ligne">
             <div class="plat"><p><?=$ligne['libelle']?></p></div>
             <div class="trait"></div>
-            <div class="prix"><?=$ligne['prix']?></div>
             <div class="prix"><?=$ligne['prix']?></div>
           </div>
         <?php
