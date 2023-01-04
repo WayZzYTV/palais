@@ -63,6 +63,24 @@
         <div class="titre">
           <h2>Menu à 11.90€ (A)</h2>
         </div>
+
+        <div class="sous-titre">
+          <h3>Entrées au choix :</h3>
+        </div>
+        <div class="produits">
+        
+        </div>
+
+        <div class="sous-titre">
+          <h3>Plats au choix :</h3>
+        </div>
+        <div class="produits">
+        
+        </div>
+
+        <div class="sous-titre">
+          <h3>Desserts au choix :</h3>
+        </div>
         <div class="produits">
         
         </div>
@@ -71,6 +89,25 @@
       <div class="carte">
         <div class="titre">
           <h2>Menu Enfant à 10€ (B)</h2>
+          <span>-10 ans</span>
+        </div>
+        
+        <div class="sous-titre">
+          <h3>Entrées au choix :</h3>
+        </div>
+        <div class="produits">
+        
+        </div>
+
+        <div class="sous-titre">
+          <h3>Plats au choix :</h3>
+        </div>
+        <div class="produits">
+        
+        </div>
+
+        <div class="sous-titre">
+          <h3>Dessert :</h3>
         </div>
         <div class="produits">
         
@@ -81,6 +118,24 @@
         <div class="titre">
           <h2>Menu à 19,90€ (C)</h2>
         </div>
+        
+        <div class="sous-titre">
+          <h3>Entrées au choix :</h3>
+        </div>
+        <div class="produits">
+        
+        </div>
+
+        <div class="sous-titre">
+          <h3>Plats au choix :</h3>
+        </div>
+        <div class="produits">
+        
+        </div>
+
+        <div class="sous-titre">
+          <h3>Desserts au choix :</h3>
+        </div>
         <div class="produits">
         
         </div>
@@ -89,6 +144,24 @@
       <div class="carte">
         <div class="titre">
           <h2>Menu Vapeur à 15.90€ (D)</h2>
+        </div>
+        
+        <div class="sous-titre">
+          <h3>Entrées au choix :</h3>
+        </div>
+        <div class="produits">
+        
+        </div>
+
+        <div class="sous-titre">
+          <h3>Plat :</h3>
+        </div>
+        <div class="produits">
+        
+        </div>
+
+        <div class="sous-titre">
+          <h3>Desserts au choix :</h3>
         </div>
         <div class="produits">
         
