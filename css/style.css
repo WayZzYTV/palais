@@ -69,6 +69,10 @@ body {
   background-attachment: fixed;
 }
 
+body.boissons {
+  background: url(../ressources/back-boisson.svg);
+}
+
 .body-null {
   overflow: hidden;
   transition: 0.2s;
@@ -460,6 +464,7 @@ footer a:hover {
   background-attachment: fixed;
   z-index: 2;
   position: relative;
+  overflow: hidden;
 }
 
 .home-blur {
@@ -474,6 +479,7 @@ footer a:hover {
   background: rgba(0, 0, 0, 0.7);
   /* backdrop-filter: blur(5px); */
   z-index: 3;
+  overflow: hidden;
 }
 
 .home img {
@@ -589,7 +595,7 @@ footer a:hover {
 .carte-vin .titre .petite-bouteille {
   position: absolute;
   bottom: 0;
-  right: 8%;
+  right: 7%;
   color: var(--or);
   font-family: 'Titillium Web', sans-serif;
   font-size: 15px;
