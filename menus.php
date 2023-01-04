@@ -20,10 +20,10 @@
           <a href="index.html" class="btn-item">Accueil</a> 
         </li>           
         <li class="nav-item">
-          <a href="carte.html" class="btn-item">Carte</a>     
+          <a href="carte.php" class="btn-item">Carte</a>     
         </li>
         <li class="nav-item">
-          <a href="#" class="btn-item">Boissons</a>     
+          <a href="boissons.php" class="btn-item">Boissons</a>     
         </li>      
         <li class="nav-item">
           <a href="menus.php" class="btn-item active">Menus</a>
@@ -43,8 +43,8 @@
       <div class="corps-burger">
         <ul class="burger-list">
           <li class="burger-item burger-item1"><a class="link" href="index.html">Accueil</a></li>
-          <li class="burger-item burger-item2"><a class="link" href="carte.html">Carte</a></li>
-          <li class="burger-item burger-item3"><a class="link" href="#">Boissons</a></li>
+          <li class="burger-item burger-item2"><a class="link" href="carte.php">Carte</a></li>
+          <li class="burger-item burger-item3"><a class="link" href="boissons.php">Boissons</a></li>
           <li class="burger-item burger-item4"><a class="link active" href="menus.php">Menus</a></li>
           <li class="burger-item burger-item5"><a class="link" href="#">Galerie</a></li>
           <li class="burger-item burger-item6"><a class="link" href="#">Contact</a></li>
@@ -59,7 +59,7 @@
 
     <div class="liste-carte">
 
-      <div class="carte">
+      <div class="carte carte-menu">
         <div class="titre">
           <h2>Menu à 11.90€ (A)</h2>
         </div>
@@ -68,7 +68,8 @@
           <h3>Entrées au choix :</h3>
         </div>
         <div class="produits">
-        
+          <p>Nems (3pcs)</p>
+          <p>Potage Pékinois</p>
         </div>
 
         <div class="sous-titre">
@@ -86,7 +87,7 @@
         </div>
       </div>
 
-      <div class="carte">
+      <div class="carte carte-menu">
         <div class="titre">
           <h2>Menu Enfant à 10€ (B)</h2>
           <span>-10 ans</span>
@@ -114,7 +115,7 @@
         </div>
       </div>
 
-      <div class="carte">
+      <div class="carte carte-menu">
         <div class="titre">
           <h2>Menu à 19,90€ (C)</h2>
         </div>
@@ -141,7 +142,7 @@
         </div>
       </div>
 
-      <div class="carte">
+      <div class="carte carte-menu">
         <div class="titre">
           <h2>Menu Vapeur à 15.90€ (D)</h2>
         </div>
