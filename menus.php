@@ -115,8 +115,8 @@
               <h3>Entrées au choix :</h3>
             </div>
             <div class="produits">
-              <p>Nems (3pcs)</p>
-              <p>Potage Pékinois</p>
+              <p>- Omelette aux crevettes</p>
+              <p>- Pâté impérial (Nems 2pcs)</p>
             </div>
           </div>
 
@@ -125,7 +125,9 @@
               <h3>Plats au choix :</h3>
             </div>
             <div class="produits">
-            
+              <p>- Brochettes de bœuf OU poulet</p>
+              <p>- Beignets de poulet</p><br>
+              <p>Accompagné de nouilles ou riz cantonais</p>
             </div>
           </div>
 
@@ -134,7 +136,7 @@
               <h3>Dessert :</h3>
             </div>
             <div class="produits">
-            
+              <p>Glaces 2 boules</p>
             </div>
           </div>
         </div>
@@ -151,8 +153,10 @@
               <h3>Entrées au choix :</h3>
             </div>
             <div class="produits">
-              <p>Nems (3pcs)</p>
-              <p>Potage Pékinois</p>
+              <p>- Raviolis aux crevettes (vapeur)</p>
+              <p>- Salade au crabe</p>
+              <p>- Pâté impérial aux crevettes ou porc (Nems)</p>
+              <p>- Soupe aux crevettes à la thaïlandaises</p>
             </div>
           </div>
 
@@ -161,7 +165,11 @@
               <h3>Plats au choix :</h3>
             </div>
             <div class="produits">
-            
+              <p>- Bœuf sauté saté sur plaque chauffante</p>
+              <p>- Filet de poisson sur plaque chauffante</p>
+              <p>- Crevettes sautées sur plaque chauffante</p>
+              <p>- Canard laqué</p><br>
+              <p>Accompagné de nouilles sautés nature ou riz cantonais</p>
             </div>
           </div>
 
@@ -170,7 +178,9 @@
               <h3>Desserts au choix :</h3>
             </div>
             <div class="produits">
-            
+              <p>- Beignet de pomme, ananas ou banane flambé</p>
+              <p>- Glace Dame blanche</p>
+              <p>- Gâteau au soja</p>
             </div>
           </div>
         </div>
@@ -187,8 +197,9 @@
               <h3>Entrées au choix :</h3>
             </div>
             <div class="produits">
-              <p>Nems (3pcs)</p>
-              <p>Potage Pékinois</p>
+              <p>- Salade aux crevettes</p>
+              <p>- Nems</p>
+              <p>- Potage aux asperges et crabe</p>
             </div>
           </div>
 
@@ -197,7 +208,8 @@
               <h3>Plat :</h3>
             </div>
             <div class="produits">
-            
+              <p>- Assortiment à la vapeur (10pcs)</p><br>
+              <p>Accompagné de riz cantonais, nouilles ou légumes Chop Suey</p>
             </div>
           </div>
 
@@ -206,7 +218,9 @@
               <h3>Desserts au choix :</h3>
             </div>
             <div class="produits">
-            
+              <p>- Perles de coco à la vapeur</p>
+              <p>- Lychees ou arbouses au sirop</p>
+              <p>- Tranche Napolitaine (glace)</p>
             </div>
           </div>
         </div>
