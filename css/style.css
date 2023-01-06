@@ -708,7 +708,28 @@ footer a:hover {
   transition: 0.3s;
 }
 
+.galerie {
+  margin: 100px auto;
+  width: 95%;
+  max-width: 1950px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 50px;
+}
 
+.img-galerie {
+  margin: auto;
+  display: flex;
+  width: 800px;
+  height: auto;
+}
+
+.img-galerie img {
+  width: 100%;
+  min-width: 270px;
+  object-fit: cover;
+}
 
 
 

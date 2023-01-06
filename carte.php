@@ -76,7 +76,7 @@
           <a href="menus.php" class="btn-item">Menus</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="btn-item">Galerie</a>
+          <a href="galerie.html" class="btn-item">Galerie</a>
         </li>        
         <li class="nav-item">
           <a href="#" class="btn-item">Contact</a>  
@@ -93,7 +93,7 @@
           <li class="burger-item burger-item2"><a class="link active" href="carte.php">Carte</a></li>
           <li class="burger-item burger-item3"><a class="link" href="boissons.php">Boissons</a></li>
           <li class="burger-item burger-item4"><a class="link" href="menus.php">Menus</a></li>
-          <li class="burger-item burger-item5"><a class="link" href="#">Galerie</a></li>
+          <li class="burger-item burger-item5"><a class="link" href="galerie.html">Galerie</a></li>
           <li class="burger-item burger-item6"><a class="link" href="#">Contact</a></li>
         </ul>
       </div>
