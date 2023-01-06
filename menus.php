@@ -57,33 +57,49 @@
 
   <section class="page">
 
-    <div class="liste-carte">
+    <div class="liste-menu">
 
       <div class="carte carte-menu">
         <div class="titre">
           <h2>Menu à 11.90€ (A)</h2>
         </div>
 
-        <div class="sous-titre">
-          <h3>Entrées au choix :</h3>
-        </div>
-        <div class="produits">
-          <p>Nems (3pcs)</p>
-          <p>Potage Pékinois</p>
-        </div>
+        <div class="choix">
+          <div class="ligne">
+            <div class="sous-titre">
+              <h3>Entrées au choix :</h3>
+            </div>
+            <div class="produits">
+              <p>- Nems (3pcs)</p>
+              <p>- Potage Pékinois</p>
+              <p>- Salade au poulet</p>
+              <p>- Omelette Foo-Yon</p>
+            </div>
+          </div>
 
-        <div class="sous-titre">
-          <h3>Plats au choix :</h3>
-        </div>
-        <div class="produits">
-        
-        </div>
+          <div class="ligne">
+            <div class="sous-titre">
+              <h3>Plats au choix :</h3>
+            </div>
+            <div class="produits">
+              <p>- Poulet à l'impérial</p>
+              <p>- Bœuf sauté à la sauce piquante</p>
+              <p>- Porc à la sauce aigre-douce</p>
+              <p>- Filet de poisson à la sauce piquante</p><br>
+              <p>Accompagné de riz nature ou riz cantonais</p>
+            </div>
+          </div>
 
-        <div class="sous-titre">
-          <h3>Desserts au choix :</h3>
-        </div>
-        <div class="produits">
-        
+          <div class="ligne">
+            <div class="sous-titre">
+              <h3>Desserts au choix :</h3>
+            </div>
+            <div class="produits">
+              <p>- Gâteau aux amandes</p>
+              <p>- Ananas ou arbouses au sirop</p>
+              <p>- Tranche Napolitaine (glace)</p>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -93,25 +109,34 @@
           <span>-10 ans</span>
         </div>
         
-        <div class="sous-titre">
-          <h3>Entrées au choix :</h3>
-        </div>
-        <div class="produits">
-        
-        </div>
+        <div class="choix">
+          <div class="ligne">
+            <div class="sous-titre">
+              <h3>Entrées au choix :</h3>
+            </div>
+            <div class="produits">
+              <p>Nems (3pcs)</p>
+              <p>Potage Pékinois</p>
+            </div>
+          </div>
 
-        <div class="sous-titre">
-          <h3>Plats au choix :</h3>
-        </div>
-        <div class="produits">
-        
-        </div>
+          <div class="ligne">
+            <div class="sous-titre">
+              <h3>Plats au choix :</h3>
+            </div>
+            <div class="produits">
+            
+            </div>
+          </div>
 
-        <div class="sous-titre">
-          <h3>Dessert :</h3>
-        </div>
-        <div class="produits">
-        
+          <div class="ligne">
+            <div class="sous-titre">
+              <h3>Dessert :</h3>
+            </div>
+            <div class="produits">
+            
+            </div>
+          </div>
         </div>
       </div>
 
@@ -120,25 +145,34 @@
           <h2>Menu à 19,90€ (C)</h2>
         </div>
         
-        <div class="sous-titre">
-          <h3>Entrées au choix :</h3>
-        </div>
-        <div class="produits">
-        
-        </div>
+        <div class="choix">
+          <div class="ligne">
+            <div class="sous-titre">
+              <h3>Entrées au choix :</h3>
+            </div>
+            <div class="produits">
+              <p>Nems (3pcs)</p>
+              <p>Potage Pékinois</p>
+            </div>
+          </div>
 
-        <div class="sous-titre">
-          <h3>Plats au choix :</h3>
-        </div>
-        <div class="produits">
-        
-        </div>
+          <div class="ligne">
+            <div class="sous-titre">
+              <h3>Plats au choix :</h3>
+            </div>
+            <div class="produits">
+            
+            </div>
+          </div>
 
-        <div class="sous-titre">
-          <h3>Desserts au choix :</h3>
-        </div>
-        <div class="produits">
-        
+          <div class="ligne">
+            <div class="sous-titre">
+              <h3>Desserts au choix :</h3>
+            </div>
+            <div class="produits">
+            
+            </div>
+          </div>
         </div>
       </div>
 
@@ -147,25 +181,34 @@
           <h2>Menu Vapeur à 15.90€ (D)</h2>
         </div>
         
-        <div class="sous-titre">
-          <h3>Entrées au choix :</h3>
-        </div>
-        <div class="produits">
-        
-        </div>
+        <div class="choix">
+          <div class="ligne">
+            <div class="sous-titre">
+              <h3>Entrées au choix :</h3>
+            </div>
+            <div class="produits">
+              <p>Nems (3pcs)</p>
+              <p>Potage Pékinois</p>
+            </div>
+          </div>
 
-        <div class="sous-titre">
-          <h3>Plat :</h3>
-        </div>
-        <div class="produits">
-        
-        </div>
+          <div class="ligne">
+            <div class="sous-titre">
+              <h3>Plat :</h3>
+            </div>
+            <div class="produits">
+            
+            </div>
+          </div>
 
-        <div class="sous-titre">
-          <h3>Desserts au choix :</h3>
-        </div>
-        <div class="produits">
-        
+          <div class="ligne">
+            <div class="sous-titre">
+              <h3>Desserts au choix :</h3>
+            </div>
+            <div class="produits">
+            
+            </div>
+          </div>
         </div>
       </div>
 
