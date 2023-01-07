@@ -503,14 +503,14 @@ footer a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  column-gap: 50px;
-  row-gap: 100px;
+  column-gap: 20px;
+  row-gap: 50px;
 }
 
 .liste-vins {
   margin: 100px auto;
   width: 95%;
-  max-width: 1200px;
+  max-width: 1600px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -525,6 +525,7 @@ footer a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  column-gap: 20px;
   row-gap: 100px;
 }
 
@@ -566,6 +567,10 @@ footer a:hover {
   width: 90%;
   padding: 1rem;
   gap: 5px;
+}
+
+.carte-menu .choix .ligne .produits span {
+  color: var(--rouge);
 }
 
 .carte-vin {

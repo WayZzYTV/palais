@@ -70,10 +70,10 @@
               <h3>Entrées au choix :</h3>
             </div>
             <div class="produits">
-              <p>- Nems (3pcs)</p>
-              <p>- Potage Pékinois</p>
-              <p>- Salade au poulet</p>
-              <p>- Omelette Foo-Yon</p>
+              <p><span>-</span> Nems (3pcs)</p>
+              <p><span>-</span> Potage Pékinois</p>
+              <p><span>-</span> Salade au poulet</p>
+              <p><span>-</span> Omelette Foo-Yon</p>
             </div>
           </div>
 
@@ -82,10 +82,10 @@
               <h3>Plats au choix :</h3>
             </div>
             <div class="produits">
-              <p>- Poulet à l'impérial</p>
-              <p>- Bœuf sauté à la sauce piquante</p>
-              <p>- Porc à la sauce aigre-douce</p>
-              <p>- Filet de poisson à la sauce piquante</p><br>
+              <p><span>-</span> Poulet à l'impérial</p>
+              <p><span>-</span> Bœuf sauté à la sauce piquante</p>
+              <p><span>-</span> Porc à la sauce aigre-douce</p>
+              <p><span>-</span> Filet de poisson à la sauce piquante</p><br>
               <p>Accompagné de riz nature ou riz cantonais</p>
             </div>
           </div>
@@ -95,9 +95,9 @@
               <h3>Desserts au choix :</h3>
             </div>
             <div class="produits">
-              <p>- Gâteau aux amandes</p>
-              <p>- Ananas ou arbouses au sirop</p>
-              <p>- Tranche Napolitaine (glace)</p>
+              <p><span>-</span> Gâteau aux amandes</p>
+              <p><span>-</span> Ananas ou arbouses au sirop</p>
+              <p><span>-</span> Tranche Napolitaine (glace)</p>
             </div>
           </div>
         </div>
@@ -115,8 +115,8 @@
               <h3>Entrées au choix :</h3>
             </div>
             <div class="produits">
-              <p>- Omelette aux crevettes</p>
-              <p>- Pâté impérial (Nems 2pcs)</p>
+              <p><span>-</span> Omelette aux crevettes</p>
+              <p><span>-</span> Pâté impérial (Nems 2pcs)</p>
             </div>
           </div>
 
@@ -125,8 +125,8 @@
               <h3>Plats au choix :</h3>
             </div>
             <div class="produits">
-              <p>- Brochettes de bœuf OU poulet</p>
-              <p>- Beignets de poulet</p><br>
+              <p><span>-</span> Brochettes de bœuf OU poulet</p>
+              <p><span>-</span> Beignets de poulet</p><br>
               <p>Accompagné de nouilles ou riz cantonais</p>
             </div>
           </div>
@@ -153,10 +153,10 @@
               <h3>Entrées au choix :</h3>
             </div>
             <div class="produits">
-              <p>- Raviolis aux crevettes (vapeur)</p>
-              <p>- Salade au crabe</p>
-              <p>- Pâté impérial aux crevettes ou porc (Nems)</p>
-              <p>- Soupe aux crevettes à la thaïlandaises</p>
+              <p><span>-</span> Raviolis aux crevettes (vapeur)</p>
+              <p><span>-</span> Salade au crabe</p>
+              <p><span>-</span> Pâté impérial aux crevettes ou porc (Nems)</p>
+              <p><span>-</span> Soupe aux crevettes à la thaïlandaises</p>
             </div>
           </div>
 
@@ -165,10 +165,10 @@
               <h3>Plats au choix :</h3>
             </div>
             <div class="produits">
-              <p>- Bœuf sauté saté sur plaque chauffante</p>
-              <p>- Filet de poisson sur plaque chauffante</p>
-              <p>- Crevettes sautées sur plaque chauffante</p>
-              <p>- Canard laqué</p><br>
+              <p><span>-</span> Bœuf sauté saté sur plaque chauffante</p>
+              <p><span>-</span> Filet de poisson sur plaque chauffante</p>
+              <p><span>-</span> Crevettes sautées sur plaque chauffante</p>
+              <p><span>-</span> Canard laqué</p><br>
               <p>Accompagné de nouilles sautés nature ou riz cantonais</p>
             </div>
           </div>
@@ -178,9 +178,9 @@
               <h3>Desserts au choix :</h3>
             </div>
             <div class="produits">
-              <p>- Beignet de pomme, ananas ou banane flambé</p>
-              <p>- Glace Dame blanche</p>
-              <p>- Gâteau au soja</p>
+              <p><span>-</span> Beignet de pomme, ananas ou banane flambé</p>
+              <p><span>-</span> Glace Dame blanche</p>
+              <p><span>-</span> Gâteau au soja</p>
             </div>
           </div>
         </div>
@@ -197,9 +197,9 @@
               <h3>Entrées au choix :</h3>
             </div>
             <div class="produits">
-              <p>- Salade aux crevettes</p>
-              <p>- Nems</p>
-              <p>- Potage aux asperges et crabe</p>
+              <p><span>-</span> Salade aux crevettes</p>
+              <p><span>-</span> Nems</p>
+              <p><span>-</span> Potage aux asperges et crabe</p>
             </div>
           </div>
 
@@ -208,7 +208,7 @@
               <h3>Plat :</h3>
             </div>
             <div class="produits">
-              <p>- Assortiment à la vapeur (10pcs)</p><br>
+              <p><span>-</span> Assortiment à la vapeur (10pcs)</p><br>
               <p>Accompagné de riz cantonais, nouilles ou légumes Chop Suey</p>
             </div>
           </div>
@@ -218,9 +218,9 @@
               <h3>Desserts au choix :</h3>
             </div>
             <div class="produits">
-              <p>- Perles de coco à la vapeur</p>
-              <p>- Lychees ou arbouses au sirop</p>
-              <p>- Tranche Napolitaine (glace)</p>
+              <p><span>-</span> Perles de coco à la vapeur</p>
+              <p><span>-</span> Lychees ou arbouses au sirop</p>
+              <p><span>-</span> Tranche Napolitaine (glace)</p>
             </div>
           </div>
         </div>
