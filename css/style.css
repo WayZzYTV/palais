@@ -28,6 +28,7 @@
   --or: #ffe169;
   --rouge: #ff002b;
   --noir: #1b1b1b;
+  --blue: #1877F2;
 }
 
 
@@ -758,7 +759,7 @@ footer a:hover {
 /* ---------------------------- CONTACT ---------------------------- */
 
 .contact {
-  margin: 100px auto;
+  margin: 50px auto;
   width: 100%;
   max-width: 1500px;
   display: flex;
@@ -767,7 +768,7 @@ footer a:hover {
 }
 
 .contact .left {
-  margin: auto;
+  margin: 0 auto;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -799,16 +800,17 @@ footer a:hover {
   font-family: 'Titillium Web', sans-serif;
 }
 
+.left .adresse .boutons {
+  display: flex;
+  gap: 10px;
+}
+
 .btn-contact {
   margin: auto;
   border: solid 1px var(--rouge);
-  width: 15vw;
+  width: 150px;
   z-index: 0;
-  max-width: 250px;
-  min-width: 160px;
   height: 40px;
-  max-height: 60px;
-  min-height: 40px;
   background-color: transparent;
   color: white;
   cursor: pointer;
@@ -839,6 +841,41 @@ footer a:hover {
   transition: all 0.3s ease-in-out;
 }
 
+.btn-facebook {
+  margin: auto;
+  border: solid 1px var(--blue);
+  width: 150px;
+  z-index: 0;
+  height: 40px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.btn-facebook:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: var(--blue);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-facebook:hover::before {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-facebook:hover {
+  transition: all 0.3s ease-in-out;
+}
+
 .left .horaire  {
   margin: auto;
   display: flex;
@@ -848,7 +885,7 @@ footer a:hover {
 }
 
 .left .adresse p , .horaire p{
-  font-size: 25px;
+  font-size: 30px;
   color: white;
   letter-spacing: 1px;
 }
@@ -947,11 +984,11 @@ footer a:hover {
   }
 }
 
-/* @media (max-width:380px) {
-  .carte {
-    width: 330px;
+@media (max-width:380px) {
+  .left .adresse .boutons {
+    flex-direction: column;
   }
-} */
+}
 
 @media (max-width:355px) {
   .home img {
