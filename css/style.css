@@ -902,15 +902,16 @@ footer a:hover {
   row-gap: 10px;
 }
 
-.left .adresse p , .horaire p{
+.left .adresse p , .horaire p, .right p{
   font-size: 30px;
   color: white;
   letter-spacing: 1px;
 }
 
 .right iframe {
-  margin: 20px auto;
+  margin: auto;
   width: 100%;
+  border-radius: 20px;
 }
 
 
@@ -968,6 +969,10 @@ footer a:hover {
   .contact {
     flex-direction: column;
   }
+
+  .right iframe {
+    margin: 30px auto 0;
+  }
 }
 
 @media (max-width:510px) {
@@ -1016,7 +1021,7 @@ footer a:hover {
     font-size: max(8vw, 20px);
   }
 
-  .left .adresse p , .horaire p {
+  .left .adresse p , .horaire p, .right p {
     font-size: max(4vw,12px);
   }
 }
