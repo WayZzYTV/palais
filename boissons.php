@@ -85,7 +85,7 @@
           <a href="galerie.html" class="btn-item">Galerie</a>
         </li>        
         <li class="nav-item">
-          <a href="#" class="btn-item">Contact</a>  
+          <a href="contact.html" class="btn-item">Contact</a>  
         </li>
       </ul>
         
@@ -100,7 +100,7 @@
           <li class="burger-item burger-item3"><a class="link active" href="boissons.php">Boissons</a></li>
           <li class="burger-item burger-item4"><a class="link" href="menus.html">Menus</a></li>
           <li class="burger-item burger-item5"><a class="link" href="galerie.html">Galerie</a></li>
-          <li class="burger-item burger-item6"><a class="link" href="#">Contact</a></li>
+          <li class="burger-item burger-item6"><a class="link" href="contact.html">Contact</a></li>
         </ul>
       </div>
     
