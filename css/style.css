@@ -458,14 +458,14 @@ footer a:hover {
   position: fixed;
   bottom: 5%;
   right: 2%;
-  width: 60px;
-  height: 60px;
-  padding: 10px;
+  width: max(2vw,35px);
+  height: max(2vw,35px);
+  padding: 5px;
   border-radius: 50%;
-  fill: white;
+  fill: var(--or);
   z-index: 999;
-  background-color: var(--rouge);
-  border: solid 2px var(--or);
+  background-color: var(--noir);
+  border: solid 2px var(--rouge);
 }
 
 
