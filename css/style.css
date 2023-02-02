@@ -778,7 +778,7 @@ footer a:hover {
 /* ---------------------------- CONTACT ---------------------------- */
 
 .contact {
-  margin: 50px auto;
+  margin: auto;
   width: 100%;
   max-width: 1500px;
   display: flex;
