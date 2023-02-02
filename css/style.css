@@ -450,7 +450,7 @@ footer a:hover {
 .page {
   margin: 70px auto 0;
   width: 100%;
-  min-height: 100vh;
+  min-height: calc(100vh - 86px);
   display: flex;
   flex-direction: column;
 }
